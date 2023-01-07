@@ -40,6 +40,51 @@ header{
   border-radius: 5px;
   border: none;
 }
+/* What i do section style */
+.what-i-do .section-description{
+  padding: 0 157px 50px 156px;
+}
+.section-title{
+  margin: 130px 0;
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 35px;
+  text-align: center;
+}
+.section-description{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 30px;
+  color: #757575;
+  text-align: center;
+}
+.skills-container{
+  display: flex;
+  gap: 24px;
+  margin: 0 150px;
+}
+.skill{
+  background: #FFFFFF;
+  box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+  padding: 30px;
+}
+.skill img{
+  margin-bottom: 30px;
+}
+.skill-title{
+  font-weight: 700;
+  font-size: 20px;
+  color: #181818;
+  margin-bottom: 20px;
+}
+.sill-description{
+  font-weight: 400;
+  font-size: 16px;
+  color: #757575;
+  line-height: 28px;
+}
 /* main-section-failur style */
 .failur-section{
   display: flex;
@@ -140,4 +185,54 @@ font-size: 20px;
 text-align: center;
 color: #F15B22;
 padding: 21px 36px;
+}
+/* footer section-right style */
+footer{
+  display: flex;
+  gap: 331px;
+  width: 1140px;
+  padding: 130px 230px;
+  background: #151414;
+}
+.contact-left{
+  width: 485px;
+}
+.contact-title{
+  font-weight: 700;
+  font-size: 45px;
+  color: #F8F8F8;
+  margin-bottom: 16px;
+}
+.contact-description{
+  font-size: 16px;
+  color: #FFFFFF;
+  margin-bottom: 24px;
+}
+.email{
+  font-size: 16px;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+}
+.phone{
+  font-size: 16px;
+  color: #FFFFFF;
+  margin-bottom: 32px;
+}
+/* footer section left style */
+.contact-left a{
+  margin-right: 17px;
+}
+.contact-right-title{
+  font-weight: 600;
+  font-size: 25px;
+  color: #FFFFFF;
+  margin-bottom: 31px;
+}
+.contact-right input{
+padding: 21px;
+font-size: 18px;
+color: #F3F3F3;
+background: #151414;
+border-radius: 5px;
+margin-bottom: 16px;
 }
