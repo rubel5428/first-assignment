@@ -62,7 +62,7 @@ header{
 .skills-container{
   display: flex;
   gap: 24px;
-  margin: 0 150px;
+  margin: 0 120px;
 }
 .skill{
   background: #FFFFFF;
@@ -190,7 +190,7 @@ padding: 21px 36px;
 footer{
   display: flex;
   gap: 331px;
-  width: 1140px;
+  width: 1040px;
   padding: 130px 230px;
   background: #151414;
 }
